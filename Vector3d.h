@@ -27,7 +27,6 @@ public:
 	Vector3d operator++(int);
 	Vector3d operator--(int);
 
-	void multiplayV();
 	friend Vector3d operator + (const Vector3d&, const Vector3d&);
 	friend int operator * (const Vector3d, const Vector3d);
 
